@@ -27,7 +27,7 @@
 
 ## 统一运行命令
 
-cd '<项目文件夹>' && /Users/liling/.workbuddy/binaries/python/versions/3.13.12/bin/python3 <脚本> [参数]复制
+cd '<项目文件夹>' && python3 <脚本> [参数]复制
 
 ## 双轨一致
 

@@ -567,7 +567,7 @@ const KNOWLEDGE_BASE = [
 <tr><td>feishu_test_send</td><td>发群消息测试</td></tr>
 </tbody></table>
 <h2>统一运行命令</h2>
-<div class="prompt-box">cd '&lt;项目文件夹&gt;' &amp;&amp; /Users/liling/.workbuddy/binaries/python/versions/3.13.12/bin/python3 &lt;脚本&gt; [参数]<button class="copy">复制</button></div>
+<div class="prompt-box">cd '&lt;项目文件夹&gt;' &amp;&amp; python3 &lt;脚本&gt; [参数]<button class="copy">复制</button></div>
 <h2>双轨一致</h2>
 <p>待办清单是唯一源：AI 标记完成 → 改飞书状态，开工卡和飞书待办永不打架。</p>
 <blockquote class="tip">进阶：把脚本迁到团队版（复制 base + 设字段权限），就能从「个人别漏别忘」升级成「团队管理工具」。</blockquote>
