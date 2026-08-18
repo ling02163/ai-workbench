@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>联系 ｜ 玲姐 · AI 工作台</title>
+  <meta name="description" content="与玲姐取得联系，或获取《售后 AI 工作台》相关资源。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono&display=swap" rel="stylesheet" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+<link rel="stylesheet" href="assets/css/style.css" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="玲姐 · AI 工作台 ｜ 售后 AI 实战经验沉淀" />
+  <meta property="og:description" content="玲姐把用 AI 的实战经验，变成同事今天就能上手的方法论与知识库。" />
+  <meta property="og:image" content="https://ling02163.github.io/ai-workbench/assets/og-cover.png" />
+  <meta property="og:url" content="https://ling02163.github.io/ai-workbench/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="玲姐 · AI 工作台 ｜ 售后 AI 实战经验沉淀" />
+  <meta name="twitter:description" content="玲姐把用 AI 的实战经验，变成同事今天就能上手的方法论与知识库。" />
+  <meta name="twitter:image" content="https://ling02163.github.io/ai-workbench/assets/og-cover.png" />
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <main>
+    <section class="kb-hero">
+      <div class="container">
+        <div class="breadcrumb"><a href="index.html">首页</a> / <span>联系</span></div>
+        <span class="eyebrow">联系</span>
+        <h1 class="section-title">想交流 AI 落地经验？</h1>
+        <p class="section-sub">欢迎同事与同行交流售后 AI 实践。部分联系方式以公司内部为准。</p>
+      </div>
+    </section>
+
+    <section class="block" style="padding-top:20px;">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-card" data-reveal>
+            <div class="ico">💬</div>
+            <h3>企业微信</h3>
+            <p style="color:var(--ink-soft);">玲姐（站内留言，看到会回复）</p>
+            <a href="#">添加时备注「AI 交流」</a>
+          </div>
+          <div class="contact-card" data-reveal>
+            <div class="ico">✉️</div>
+            <h3>工作邮箱</h3>
+            <p style="color:var(--ink-soft);">以公司内部邮箱系统为准（待补充对外邮箱）</p>
+            <a href="#">公司内部通讯录可查</a>
+          </div>
+          <div class="contact-card" data-reveal>
+            <div class="ico">📚</div>
+            <h3>开工 / 收工 上手文档</h3>
+            <p style="color:var(--ink-soft);">团队同事可直接拿来用的通用说明</p>
+            <a href="kb.html?id=work-rhythm-method" target="_blank">查看方法 →</a>
+          </div>
+          <div class="contact-card" data-reveal>
+            <div class="ico">🔗</div>
+            <h3>知识库原文分享</h3>
+            <p style="color:var(--ink-soft);">本手册的在线分享版（即本站内容来源）</p>
+            <a href="kb.html" target="_blank">进入知识库 →</a>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap" data-reveal>
+          <h2 class="form-title">给玲姐留个言</h2>
+          <p class="form-tip">提交后我会收到企业微信提醒，尽快回复你。</p>
+          <form id="contactForm" class="contact-form" novalidate>
+            <div class="form-row">
+              <label for="cf-name">称呼 *</label>
+              <input id="cf-name" name="name" type="text" maxlength="40" required placeholder="怎么称呼你" />
+            </div>
+            <div class="form-row">
+              <label for="cf-contact">联系方式 *</label>
+              <input id="cf-contact" name="contact" type="text" maxlength="60" required placeholder="微信 / 邮箱 / 电话" />
+            </div>
+            <div class="form-row">
+              <label for="cf-msg">留言 *</label>
+              <textarea id="cf-msg" name="message" rows="5" maxlength="800" required placeholder="想交流什么？"></textarea>
+            </div>
+            <!-- honeypot: 真人不会填，机器人才填 -->
+            <div class="hp" aria-hidden="true">
+              <label>请勿填写此栏<input type="text" name="company" tabindex="-1" autocomplete="off" /></label>
+            </div>
+            <button type="submit" class="btn btn-primary" id="cf-submit">发送留言</button>
+            <p class="form-status" id="cf-status" role="status"></p>
+          </form>
+        </div>
+
+        <div class="cta" style="margin-top:40px;" data-reveal>
+          <h2>先看看知识库？</h2>
+          <p>大多数问题，9 篇笔记里都有现成答案。先看一遍，再交流更高效。</p>
+          <a class="btn btn-primary" href="kb.html">进入知识库 →</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/chatbot.js"></script>
+  <script src="assets/js/contact-config.js"></script>
+  <script src="assets/js/contact.js"></script>
+</body>
+</html>

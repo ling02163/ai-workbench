@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>知识库 ｜ 玲姐 · AI 工作台</title>
+  <meta name="description" content="玲姐知识库：26 篇实战笔记，覆盖售后 AI 工作台、沟通汇报、品牌定位、效率体系、技术实操、团队管理六大板块。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono&display=swap" rel="stylesheet" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+<link rel="stylesheet" href="assets/css/style.css" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="玲姐 · AI 工作台 ｜ 售后 AI 实战经验沉淀" />
+  <meta property="og:description" content="玲姐把用 AI 的实战经验，变成同事今天就能上手的方法论与知识库。" />
+  <meta property="og:image" content="https://ling02163.github.io/ai-workbench/assets/og-cover.png" />
+  <meta property="og:url" content="https://ling02163.github.io/ai-workbench/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="玲姐 · AI 工作台 ｜ 售后 AI 实战经验沉淀" />
+  <meta name="twitter:description" content="玲姐把用 AI 的实战经验，变成同事今天就能上手的方法论与知识库。" />
+  <meta name="twitter:image" content="https://ling02163.github.io/ai-workbench/assets/og-cover.png" />
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <main>
+    <section class="kb-hero">
+      <div class="container">
+        <div class="breadcrumb"><a href="index.html">首页</a> / <span>知识库</span></div>
+        <span class="eyebrow">知识库 · 经验沉淀</span>
+        <h1 class="section-title">玲姐的知识库</h1>
+        <p class="section-sub">26 篇实战笔记，把用 AI 的经验拆成能直接抄的方法。按板块挑，或搜关键词。</p>
+        <div class="kb-search">
+          <input id="kbSearch" type="search" aria-label="搜索知识库文章" placeholder="搜索：选工具 / 提示词 / 文案公式 / 时间管理 / 飞书 / 数据分析 ..." />
+        </div>
+        <div class="kb-filters" id="kbFilters"></div>
+      </div>
+    </section>
+
+    <section class="block" style="padding-top:6px;">
+      <div class="container">
+        <div class="kb-featured" id="kbFeatured"></div>
+        <div class="grid grid-3" id="kbList"></div>
+        <article class="kb-body" id="kbDetail" style="display:none;"></article>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/chatbot.js"></script>
+  <script src="assets/js/kb-data.js"></script>
+  <script src="assets/js/kb.js"></script>
+</body>
+</html>
